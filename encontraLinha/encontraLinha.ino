@@ -19,7 +19,7 @@ void setup()
   pinMode(Sensor, INPUT);
   Serial.begin(9600);
 
-   //Define os de controle do motor
+   //Define os pinos de controle do motor
    pinMode(CH1, OUTPUT);
    pinMode(CH1_pwm, OUTPUT);
    pinMode(CH2, OUTPUT);
